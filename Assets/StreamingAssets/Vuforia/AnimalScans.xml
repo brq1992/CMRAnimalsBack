@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Big" size="1.000000 0.937353" />
+    <ImageTarget name="Inside" size="1.000000 0.937353" />
+    <ImageTarget name="Middle" size="1.000000 0.937353" />
+    <ImageTarget name="North" size="1.000000 0.937353" />
+    <ImageTarget name="Outside" size="1.000000 0.937353" />
+    <ImageTarget name="South" size="1.000000 0.937353" />
+    <ImageTarget name="East" size="1.000000 0.937353" />
+    <ImageTarget name="West" size="1.000000 0.937353" />
+  </Tracking>
+</QCARConfig>

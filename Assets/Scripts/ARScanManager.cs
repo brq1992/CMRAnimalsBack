@@ -78,7 +78,7 @@ public class ARScanManager : BaseManager
             {
                 return;
             }
-            int index = Random.Range(0, contents.list.Count);
+            int index = Random.Range(0, contents.list.Count + 1);
             if (index == contents.list.Count)
             {
                 GameObject prefab = contents.prefab;

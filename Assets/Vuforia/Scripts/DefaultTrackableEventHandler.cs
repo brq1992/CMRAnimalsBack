@@ -85,7 +85,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = true;
 
-        Core.NotificationEx.getSingleton().Post<bool>(GlobelConst.FOUNDTARGET, true);
+        //Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, true);
+        ScanResult result = new ScanResult
+        {
+            result = true,
+            root = gameObject
+        };
+        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, result);
     }
 
 
@@ -107,7 +113,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = false;
 
-        Core.NotificationEx.getSingleton().Post<bool>(GlobelConst.FOUNDTARGET, false);
+        //Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, false);
+        ScanResult result = new ScanResult
+        {
+            result = false,
+            root = gameObject
+        };
+        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, result);
+
     }
 
     #endregion // PRIVATE_METHODS

@@ -10,11 +10,8 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Debug.isDebugBuild)
-        {
-            GameObject debug = new GameObject("Debug");
-            debug.AddComponent<DebugOutside>();
-        }
+            //GameObject debug = new GameObject("Debug");
+            //debug.AddComponent<DebugOutside>();
 
         new GameObject("Android").AddComponent<Android>();
     }

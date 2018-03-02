@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class LogObject
@@ -13,7 +14,7 @@ public class DebugOutside : MonoBehaviour
     //public long maxLogCount = 200;
 
     private List<LogObject> lo = new List<LogObject>();
-    private Rect m_logWinRect = new Rect(Screen.width - 1200, 0, 800, 800);
+    private Rect m_logWinRect = new Rect(Screen.width - 1200, 0, 1200, 800);
     private Rect m_minBtnRect = new Rect(Screen.width - 140, 50, 140, 55);
     private Vector2 scrollPosition;
     private bool m_showLog = true;
@@ -120,6 +121,8 @@ public class DebugOutside : MonoBehaviour
         if (GUILayout.Button("折   叠"))
         {
             m_showLogWin = !m_showLogWin;
+            //m_minBtnRect.x = m_logWinRect.center.x - m_minBtnRect.x / 2;
+            //m_minBtnRect.y = m_logWinRect.center.y - m_minBtnRect.y / 2;
             m_minBtnRect = new Rect(Screen.width - 140, 0, 140, 55);
         }
         if (GUILayout.Button("清   除"))

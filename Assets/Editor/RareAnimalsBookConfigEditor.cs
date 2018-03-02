@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -42,3 +41,4 @@ public class RareAnimalsBookConfigEditor : Editor {
     {
     }
 }
+

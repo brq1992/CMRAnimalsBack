@@ -49,7 +49,7 @@ public class BookManager : BaseManager
         obj.transform.GetComponent<RectTransform>().sizeDelta = Vector3.zero;
         obj.transform.GetComponent<RectTransform>().localScale = Vector3.one;
         BookContentManager manager = obj.GetComponent<BookContentManager>();
-        manager.InitBookContent(book.Middle);
+        manager.InitBookContent(book);
         bookState = BookState.Other;
     }
 

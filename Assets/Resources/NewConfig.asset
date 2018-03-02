@@ -25,6 +25,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 107ac75af56d9bb4d80896f03320f088, type: 3}
     - Sprite: {fileID: 21300000, guid: 24256889686ee7c4bb6587f2e538cd6c, type: 3}
       Asset: {fileID: 4900000, guid: d5a3ea981a9219b4389f615637195299, type: 3}
+    Title: {fileID: 21300000, guid: bae30e515fd5aa444a79ffde48ba9f97, type: 3}
     Key: SouthBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: c2599f10626937846bab5eff2333b144, type: 3}
@@ -37,6 +38,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 25ee7930c5ec3864f9fb57f86d09baeb, type: 3}
     - Sprite: {fileID: 21300000, guid: 7ab6ca22eea4774489090d9cb10fa645, type: 3}
       Asset: {fileID: 4900000, guid: 5bf1b12fdf8e5394abd677c61f77baa2, type: 3}
+    Title: {fileID: 21300000, guid: 04436fedbf43d9f42a418afb9b92722e, type: 3}
     Key: WestBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: 3fcc7fadf39f57c4faca52e4c7b2b14a, type: 3}
@@ -49,6 +51,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: d600394519d07e44d821529bd133c105, type: 3}
     - Sprite: {fileID: 21300000, guid: 3cb8efd3a49503244a958d8e3a81ac52, type: 3}
       Asset: {fileID: 4900000, guid: ce74ea26d4f191846bbd36f191d4702e, type: 3}
+    Title: {fileID: 21300000, guid: ec20e21d846e7f646995adca3ccb5e38, type: 3}
     Key: EastBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: b6fc50bc6a687104ba6079e3e9c29fe0, type: 3}
@@ -63,6 +66,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 4703033b709898949b201a0ed4c2161e, type: 3}
     - Sprite: {fileID: 21300000, guid: 1a3ad6f898724cf419a4e7d562b5f7af, type: 3}
       Asset: {fileID: 4900000, guid: 5540d247dfb587d40b1b14339900a62b, type: 3}
+    Title: {fileID: 21300000, guid: 074bc84d83bf42c4882d4df4dbc1aeb0, type: 3}
     Key: NorthBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: ed2ad3c3bc8eba14aacd900366d1c2f0, type: 3}
@@ -75,6 +79,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 09488826c89c7494385fb1f08e853c28, type: 3}
     - Sprite: {fileID: 21300000, guid: b85bdbaa4f5bcc449bd75f9236ed1bed, type: 3}
       Asset: {fileID: 4900000, guid: f185754e86b83824f9ae52e90c6cfeaf, type: 3}
+    Title: {fileID: 21300000, guid: 08c77433fad85f34db3bfb9b5ef240f8, type: 3}
     Key: MiddleBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: ce1b46c989b3f0446a95980ec4bfd78f, type: 3}
@@ -87,6 +92,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 85ea6403e690b0041837aa7c1c5a1e7a, type: 3}
     - Sprite: {fileID: 21300000, guid: 5db41ac1e8aa1ad408fecd5b556729f0, type: 3}
       Asset: {fileID: 4900000, guid: b0c558654376ae247b12f82e7fbeff5b, type: 3}
+    Title: {fileID: 21300000, guid: 1e0fce7b431eeb44ca3c1ab1ca4b0833, type: 3}
     Key: InsideBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: bded8f272476923468dea98eed33d60d, type: 3}
@@ -99,6 +105,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 4ac5bd69979090645a3ce132dbe164fc, type: 3}
     - Sprite: {fileID: 21300000, guid: 00411114c3ee69c4c92280ccf51c2647, type: 3}
       Asset: {fileID: 4900000, guid: 92c05bfcf3e206643b620da07f843d5a, type: 3}
+    Title: {fileID: 21300000, guid: 42942c24d875bdb40960f8d14d827109, type: 3}
     Key: OutsideBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: 50c8cf21dee5abf40a0a349e3e4c6e2d, type: 3}
@@ -111,4 +118,5 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: b5235f4904c9035479786fc3b55a142d, type: 3}
     - Sprite: {fileID: 21300000, guid: ae0b7662d5bf1264fa4d3010dbd17f08, type: 3}
       Asset: {fileID: 4900000, guid: 2b888c8d93faf274490981fe421aaf3c, type: 3}
+    Title: {fileID: 21300000, guid: 737c260b97a14554dbfc4105c76631ae, type: 3}
     Key: BigBook
